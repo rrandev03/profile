@@ -11,7 +11,6 @@
 # NOTE: You don't need to provide this property when hosting on GitHub Pages or Netlify.
 # baseurl:               '/hydejack-starter-kit'
 
-theme: jekyll-theme-hydejack
 # General settings
 # ---------------------------------------------------------------------------------------
 # Language of your content in 2-letter code, e.g.: en, de.
