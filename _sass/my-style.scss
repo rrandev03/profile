@@ -150,7 +150,47 @@
   }
 
   .sidebar {
-    background: url("assets/img/sidebar-bg.jpg") no-repeat center center;
+    background: url("/assets/img/sidebar-bg.jpg") no-repeat center center;
+    background-size: cover;
+  }
+}
+
+/* Hydejack class-based dark mode */
+.dark-mode, [data-theme="dark"] {
+  /* Project cards background */
+  .project-card {
+    background: #1a1a1a !important;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+    
+    &:hover {
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+    }
+  }
+  
+  /* Grid box titles */
+  .project-content h3 {
+    color: #ffffff !important;
+  }
+
+  /* Grid box body text */
+  .project-description {
+    color: #d4d4d4 !important;
+  }
+
+  /* Links */
+  .project-link {
+    color: #7cc0ff !important;
+  }
+
+  /* Tags */
+  .tag {
+    background: rgba(255,255,255,0.08) !important;
+    color: #e6f4ff !important;
+    border: 1px solid rgba(255,255,255,0.1) !important;
+  }
+
+  .sidebar {
+    background: url("/assets/img/sidebar-bg.jpg") no-repeat center center;
     background-size: cover;
   }
 }
