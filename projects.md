@@ -52,7 +52,7 @@ A collection of projects I've worked on recently, in and out of school!
   <div class="project-image" style="background-image: url('{{ "/assets/img/warning.jpg" | relative_url }}');"></div>
   <div class="project-content">
     <h3>Predicting Web Application Failures</h3>
-    <p class="project-description">A POC for predicting production issues in web applications using multivariate time series classification techniques like ROCKET & Shapelet(summer internship with The Home Depot).</p>
+    <p class="project-description">A POC for predicting production issues in web applications using multivariate time series classification techniques like ROCKET & Shapelet (summer internship with The Home Depot).</p>
     <div class="project-tags">
       <span class="tag">Time Series Classification</span>
       <span class="tag">Grafana</span>

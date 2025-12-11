@@ -36,7 +36,6 @@
   background-repeat: no-repeat;
 }
 
-
 .project-content {
   padding: 1.5rem;
   display: flex;
@@ -118,6 +117,16 @@
 
 /* Dark-mode text & tag improvements */
 @media (prefers-color-scheme: dark) {
+  /* Project cards background */
+  .project-card {
+    background: #1a1a1a !important;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+    
+    &:hover {
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+    }
+  }
+  
   /* Grid box titles */
   .project-content h3 {
     color: #ffffff !important;
@@ -141,8 +150,7 @@
   }
 
   .sidebar {
-  background: url("assets/img/sidebar-bg.jpg") no-repeat center center;
-  background-size: cover;
+    background: url("assets/img/sidebar-bg.jpg") no-repeat center center;
+    background-size: cover;
+  }
 }
-}
-
